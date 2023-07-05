@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   color-scheme: light dark;
+}
+
+body{
+    background: url(pexels-sevil-yeva-15114168.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.header input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #2695f7;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.header{
+    padding: 50px 20px 30px 20px;
+}
+
+.header h1{
+    font-size: 43px;
+    color: #fbb034;
+    text-shadow: 1px 3px rgba(0,0,0,0.9);
+}
+
+.city{
+    font-size: 29px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,0.4);
+}
+
+.temp{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.desc{
+    font-size: 23px;
+    font-style: italic;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,0.3);
+}
+
+.minmax{
+    font-size: 23px;
+    text-shadow: 1px 3px rgba(0,0,0,0.2);
+}
+input::placeholder{
+    color: #fff;
+}
+
+@media(max-width: 700px){
+    body{
+        height: 100vh;
+    }
+}
